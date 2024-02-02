@@ -13,7 +13,7 @@ def request(url, file_handle):
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python script.py <target_url> <output_file>")
+        print("Usage: python subdomainfinder.py <target_url> <output_file>")
         sys.exit(1)
 
     target_url = sys.argv[1]
